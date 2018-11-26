@@ -1,4 +1,4 @@
-package io.ymq.example.mongodb;
+package com.peter.springboot.mongodb;
 
 import com.alibaba.fastjson.JSONObject;
 import com.peter.springboot.mongodb.SpringBootMongodbApplication;
@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 /**
  * 描述: 单元测试
  *
- * @author: yanpenglei
+ * @author: Peter Pan
  * @create: 2018/2/5 13:52
  */
 @RunWith(SpringRunner.class)
