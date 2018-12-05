@@ -15,17 +15,17 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitFanoutConfig {
 
-    final static String PENGLEI = "fanout.penglei.net";
+    final static String PETER_BLOG = "https://blog.csdn.net/panjianlongWUHAN";
 
-    final static String SOUYUNKU = "fanout.souyunku.com";
+    final static String PETER_GIT = "https://github.com/panjianlong13/SpringBoot-SpringCloud";
     @Bean
     public Queue queuePenglei() {
-        return new Queue(RabbitFanoutConfig.PENGLEI);
+        return new Queue(RabbitFanoutConfig.PETER_BLOG);
     }
 
     @Bean
     public Queue queueSouyunku() {
-        return new Queue(RabbitFanoutConfig.SOUYUNKU);
+        return new Queue(RabbitFanoutConfig.PETER_GIT);
     }
 
     /**

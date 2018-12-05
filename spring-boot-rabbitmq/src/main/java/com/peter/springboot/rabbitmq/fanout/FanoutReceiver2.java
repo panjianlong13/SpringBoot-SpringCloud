@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @create 2017-10-23 15:38
  **/
 @Component
-@RabbitListener(queues = "fanout.souyunku.com")
+@RabbitListener(queues = "https://github.com/panjianlong13/SpringBoot-SpringCloud")
 public class FanoutReceiver2 {
 
     @RabbitHandler

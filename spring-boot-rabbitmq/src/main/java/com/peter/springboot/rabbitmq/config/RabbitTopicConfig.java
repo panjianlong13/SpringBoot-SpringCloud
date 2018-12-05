@@ -20,7 +20,7 @@ public class RabbitTopicConfig {
 
     final static String MESSAGES = "topic.message.s";
 
-    final static String YMQ = "topic.ymq";
+    final static String PETERMQ = "topic.peter";
 
     @Bean
     public Queue queueMessage() {
@@ -34,7 +34,7 @@ public class RabbitTopicConfig {
 
     @Bean
     public Queue queueYmq() {
-        return new Queue(RabbitTopicConfig.YMQ);
+        return new Queue(RabbitTopicConfig.PETERMQ);
     }
 
     /**

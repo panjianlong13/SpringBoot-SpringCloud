@@ -28,7 +28,7 @@ public class RabbitFanoutTest {
 
         String context = "此消息在，广播模式或者订阅模式队列下，有 FanoutReceiver1 FanoutReceiver2 可以收到";
 
-        String routeKey = "topic.penglei.net";
+        String routeKey = "https://blog.csdn.net/panjianlongWUHAN";
 
         String exchange = "fanoutExchange";
 
@@ -44,7 +44,7 @@ public class RabbitFanoutTest {
 
         String context = "此消息在，广播模式或者订阅模式队列下，有 FanoutReceiver1 FanoutReceiver2 可以收到";
 
-        String routeKey = "topic.souyunku.com";
+        String routeKey = "https://github.com/panjianlong13/SpringBoot-SpringCloud";
 
         String exchange = "fanoutExchange";
 

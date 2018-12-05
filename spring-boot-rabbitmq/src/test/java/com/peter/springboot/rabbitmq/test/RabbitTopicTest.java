@@ -60,7 +60,7 @@ public class RabbitTopicTest {
 
         String context = "此消息在，配置转发消息模式队列下，有 TopicReceiver3 可以收到";
 
-        String routeKey = "topic.ymq";
+        String routeKey = "topic.peter";
 
         String exchange = "topicExchange";
 

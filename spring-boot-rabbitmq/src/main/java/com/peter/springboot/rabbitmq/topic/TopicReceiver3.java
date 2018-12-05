@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @create: 2017/10/23 14:15
  */
 @Component
-@RabbitListener(queues = "topic.ymq")
+@RabbitListener(queues = "topic.peter")
 public class TopicReceiver3 {
 
     @RabbitHandler
