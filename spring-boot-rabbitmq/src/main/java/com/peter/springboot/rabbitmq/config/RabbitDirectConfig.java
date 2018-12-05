@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration;
  *
  * Direct Exchange是RabbitMQ默认的交换机模式，也是最简单的模式，根据key全文匹配去寻找队列。
  *
- * @author yanpenglei
- * @create 2017-10-25 0:09
+ * @author Peter Pan
+ * @create 2018-12-05 0:09
  **/
 @Configuration
 public class RabbitDirectConfig {

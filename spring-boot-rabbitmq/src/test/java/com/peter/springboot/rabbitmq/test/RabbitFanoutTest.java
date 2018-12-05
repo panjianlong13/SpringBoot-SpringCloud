@@ -9,12 +9,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.peter.springboot.rabbitmq.run.Startup;
 
-
 /**
  * 描述: 广播模式或者订阅模式队列
  *
- * @author: yanpenglei
- * @create: 2017/10/25 1:08
+ * @author Peter Pan
+ * @create 2018-12-05 0:09
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Startup.class)

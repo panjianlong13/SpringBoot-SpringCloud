@@ -7,8 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 描述: 启动服务
  *
- * @author: yanpenglei
- * @create: 2017/10/23 14:14
+ * @author Peter Pan
+ * @create 2018-12-05 0:09
  */
 @SpringBootApplication
 @ComponentScan(value = {"com.peter.springboot.rabbitmq"})

@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 /**
  * 描述:
  *
- * @author yanpenglei
- * @create 2017-10-25 0:47
+ * @author Peter Pan
+ * @create 2018-12-05 0:09
  **/
 @Component
 @RabbitListener(queues = "hello")

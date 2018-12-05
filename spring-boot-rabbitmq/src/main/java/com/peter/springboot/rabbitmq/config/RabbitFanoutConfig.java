@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration;
  * <p>
  * Fanout 就是我们熟悉的广播模式或者订阅模式，给Fanout交换机发送消息，绑定了这个交换机的所有队列都收到这个消息。
  *
- * @author yanpenglei
- * @create 2017-10-16 16:47
+ * @author Peter Pan
+ * @create 2018-12-05 0:09
  **/
 @Configuration
 public class RabbitFanoutConfig {

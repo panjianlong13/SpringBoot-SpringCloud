@@ -12,8 +12,8 @@ import com.peter.springboot.rabbitmq.run.Startup;
 /**
  * 描述: 默认的交换机模式
  *
- * @author: yanpenglei
- * @create: 2017/10/25 1:03
+ * @author Peter Pan
+ * @create 2018-12-05 0:09
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Startup.class)

@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 描述:配置转发消息模式队列
  *
- * @author yanpenglei
- * @create 2017-10-16 16:47
+ * @author Peter Pan
+ * @create 2018-12-05 0:09
  **/
 @Configuration
 public class RabbitTopicConfig {
