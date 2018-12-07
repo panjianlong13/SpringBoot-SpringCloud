@@ -1,0 +1,7 @@
+server:
+  context-path: /
+  port: 8080
+spring:
+  data:
+    solr:
+      host: http://localhost:8983/solr

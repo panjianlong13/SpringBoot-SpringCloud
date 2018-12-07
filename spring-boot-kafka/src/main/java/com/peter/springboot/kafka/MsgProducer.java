@@ -24,7 +24,7 @@ public class MsgProducer {
 	private KafkaTemplate<String, String> kafkaTemplate;
 
 	public void sendMessage(String topicName, String jsonData) {
-		log.info("向kafka推送数据:[{}]", jsonData);
+		log.info("向本机kafka推送数据:[{}]", jsonData);
 		try {
 			kafkaTemplate.send(topicName, jsonData);
 		} catch (Exception e) {
