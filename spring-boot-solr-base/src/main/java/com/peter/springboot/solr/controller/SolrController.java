@@ -199,7 +199,7 @@ public class SolrController {
 		params.setHighlightSimplePost("</span>");
 
 		// solr数据库是 itaem
-		QueryResponse queryResponse = client.query("itaem", params);
+		QueryResponse queryResponse = client.query("test", params);
 		SolrDocumentList results = queryResponse.getResults();
 
 		// 数量，分页用
