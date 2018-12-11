@@ -1,0 +1,66 @@
+- | [] | [20181211 09:53:45.450] | [INFO] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> Starting Startup on 1231.local with PID 27216 (/Users/panjianlong/Documents/Peter_Learning/Git/Peter-SpringBoot-SpringCloud/spring-boot-logback/target/classes started by panjianlong in /Users/panjianlong/Documents/Peter_Learning/Git/Peter-SpringBoot-SpringCloud/spring-boot-logback)|
+- | [] | [20181211 09:53:45.455] | [DEBUG] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20181211 09:53:45.456] | [INFO] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20181211 09:53:45.648] | [DEBUG] | [1231.local] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20181211 09:53:45.651] | [INFO] | [1231.local] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20181211 09:53:45.679] | [DEBUG] | [1231.local] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 09:53:46.658] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 09:53:46.666] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 09:53:46.670] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20181211 09:53:46.671] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20181211 09:53:46.673] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy49|
+- | [] | [20181211 09:53:46.675] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20181211 09:53:46.677] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20181211 09:53:46.678] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20181211 09:53:46.679] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20181211 09:53:46.680] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20181211 09:53:47.067] | [INFO] | [1231.local] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20181211 09:53:47.069] | [INFO] | [1231.local] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20181211 09:53:47.154] | [INFO] | [1231.local] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20181211 09:53:47.570] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 09:53:47.580] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 09:53:47.581] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20181211 09:53:47.582] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20181211 09:53:47.582] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy49|
+- | [] | [20181211 09:53:47.583] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20181211 09:53:47.583] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20181211 09:53:47.583] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20181211 09:53:47.583] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20181211 09:53:47.583] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20181211 09:53:48.222] | [INFO] | [1231.local] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8080"]|
+- | [] | [20181211 09:53:48.240] | [INFO] | [1231.local] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8080"]|
+- | [] | [20181211 09:53:48.278] | [INFO] | [1231.local] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20181211 09:53:48.362] | [INFO] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> Started Startup in 3.319 seconds (JVM running for 4.066)|
+- | [] | [20181211 10:08:47.087] | [INFO] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> Starting Startup on 1231.local with PID 30545 (/Users/panjianlong/Documents/Peter_Learning/Git/Peter-SpringBoot-SpringCloud/spring-boot-logback/target/classes started by panjianlong in /Users/panjianlong/Documents/Peter_Learning/Git/Peter-SpringBoot-SpringCloud/spring-boot-logback)|
+- | [] | [20181211 10:08:47.092] | [DEBUG] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE|
+- | [] | [20181211 10:08:47.093] | [INFO] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> No active profile set, falling back to default profiles: default|
+- | [] | [20181211 10:08:47.308] | [DEBUG] | [1231.local] | [background-preinit] | [org.jboss.logging] | --> Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property|
+- | [] | [20181211 10:08:47.310] | [INFO] | [1231.local] | [background-preinit] | [o.h.validator.internal.util.Version] | --> HV000001: Hibernate Validator 5.3.5.Final|
+- | [] | [20181211 10:08:47.333] | [DEBUG] | [1231.local] | [background-preinit] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 10:08:48.134] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 10:08:48.143] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 10:08:48.146] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20181211 10:08:48.147] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20181211 10:08:48.148] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy49|
+- | [] | [20181211 10:08:48.150] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20181211 10:08:48.151] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20181211 10:08:48.152] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20181211 10:08:48.153] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20181211 10:08:48.153] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20181211 10:08:48.473] | [INFO] | [1231.local] | [main] | [o.a.catalina.core.StandardService] | --> Starting service [Tomcat]|
+- | [] | [20181211 10:08:48.474] | [INFO] | [1231.local] | [main] | [o.a.catalina.core.StandardEngine] | --> Starting Servlet Engine: Apache Tomcat/8.5.20|
+- | [] | [20181211 10:08:48.553] | [INFO] | [1231.local] | [localhost-startStop-1] | [o.a.c.c.C.[Tomcat].[localhost].[/]] | --> Initializing Spring embedded WebApplicationContext|
+- | [] | [20181211 10:08:49.030] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 10:08:49.044] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.e.r.DefaultTraversableResolver] | --> Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.|
+- | [] | [20181211 10:08:49.045] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator|
+- | [] | [20181211 10:08:49.045] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory|
+- | [] | [20181211 10:08:49.045] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.engine.ConfigurationImpl] | --> Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy49|
+- | [] | [20181211 10:08:49.046] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> Trying to load META-INF/validation.xml for XML based Validator configuration.|
+- | [] | [20181211 10:08:49.046] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via user class loader|
+- | [] | [20181211 10:08:49.046] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via TCCL|
+- | [] | [20181211 10:08:49.046] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ResourceLoaderHelper] | --> Trying to load META-INF/validation.xml via Hibernate Validator's class loader|
+- | [] | [20181211 10:08:49.047] | [DEBUG] | [1231.local] | [main] | [o.h.v.i.xml.ValidationXmlParser] | --> No META-INF/validation.xml found. Using annotation based configuration only.|
+- | [] | [20181211 10:08:49.585] | [INFO] | [1231.local] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Initializing ProtocolHandler ["http-nio-8080"]|
+- | [] | [20181211 10:08:49.593] | [INFO] | [1231.local] | [main] | [o.a.coyote.http11.Http11NioProtocol] | --> Starting ProtocolHandler ["http-nio-8080"]|
+- | [] | [20181211 10:08:49.614] | [INFO] | [1231.local] | [main] | [o.a.tomcat.util.net.NioSelectorPool] | --> Using a shared selector for servlet write/read|
+- | [] | [20181211 10:08:49.661] | [INFO] | [1231.local] | [main] | [c.p.springboot.logback.run.Startup] | --> Started Startup in 2.959 seconds (JVM running for 4.015)|
