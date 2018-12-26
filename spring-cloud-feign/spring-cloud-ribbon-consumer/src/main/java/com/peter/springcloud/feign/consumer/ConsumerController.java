@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @ClassName: ConsumerController
- * @Description: TODO
+ * @Description: 调用提供者的提供的方法
  * @author Peter Pan
  * @date 2018年12月21日
  *
