@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.peter.springcloud.eureka</groupId>
+	<groupId>io.ymq.example</groupId>
 	<artifactId>spring-cloud-eureka-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -27,10 +27,14 @@
 
 	<dependencies>
 
+        <!--eureka server -->
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
+
+        <!-- spring boot test-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -59,5 +63,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
