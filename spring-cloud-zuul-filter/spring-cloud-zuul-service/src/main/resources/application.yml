@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: zuul-service
+
+server:
+  port: 8080
+
+#zuul:
+#  routes:
+#    blog:
+#        path: /peter/**
+#        url: https://blog.csdn.net/panjianlongWUHAN
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    api:
+        path: /**
+        serviceId: eureka-provider
